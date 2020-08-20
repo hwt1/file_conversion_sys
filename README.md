@@ -2,6 +2,7 @@
 一、功能说明
 
 将sql字段的excel表格转为可执行的sql语句文本
+
 提供下载excel模板，根据模板填写sql字段的相关信息，上传文件之后生成建表或给已存在表添加字段的可执行sql语句
 
 二、使用技术
@@ -17,6 +18,7 @@
 （1）建立vue项目
 
 npm install --global vue-cli     安装全局脚手架
+
 vue init webpack 项目名           创建一个基于webpack模板的新项目
 
 （2）引入element-UI模块，先使用npm安装element模块，再在main.js引入。具体参考element-UI使用手册
